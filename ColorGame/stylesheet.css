@@ -1,0 +1,43 @@
+body
+{
+    background-color: #232323;
+}
+*
+{
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 800;
+
+}
+
+.square
+{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%
+
+}
+
+#container
+{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#stripe
+{
+    background-color: white;
+    text-align: center;
+    height: 30px;
+}
+
+#playButton
+{
+    margin-right: 20px;
+}
+
+.selectedButton
+{
+    background-color: blue;
+}
