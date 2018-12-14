@@ -18,20 +18,21 @@
 <section id = "headerSec">
         <div class = "container">
         <div id = "jumboContainer" class = "jumbotron text-center">
-        <h1>The <span id = "colorDisplay">RGB</span> Color Game</h1>
+        <h1>The <br> <span id = "colorDisplay">RGB</span><br> Color Game</h1>
         </div>
         </div>
 </section>
 
-
+    <div class = "container">
     <div id = "stripe">
     <button id = "playAgain" class = "playButton">Play Again</button>
-    <span id = "message">Click on any of the squares to guess if it corresponds with the rgb color above</span>
+    <span id = "message"></span>
     <button id = "easy">Easy</button>
     <button id = "hard" class = "selectedButton">Hard</button>
     </div>
+</div>
 
-<div id = "container">
+<div id = "container" style = "margin-top: 30px;">
     <div class = "square"></div>
     <div class = "square"></div>
     <div class = "square"></div>
@@ -39,6 +40,8 @@
     <div class = "square"></div>
     <div class = "square"></div>
 </div>
+
+
 
 
 <script type = "text/javascript" src = "script.js"></script>

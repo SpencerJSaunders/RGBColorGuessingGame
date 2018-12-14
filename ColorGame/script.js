@@ -46,7 +46,6 @@ document.getElementById("playAgain").addEventListener("click", function()
     }
 
     document.body.style.backgroundColor = "#232323";
-    messageDisplay.textContent = "Click on any of the squares to guess if it corresponds with the rgb color above";
     jumbo.style.backgroundColor = "white";
     jumbo.style.color = "black";
 

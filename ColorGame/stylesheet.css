@@ -15,8 +15,32 @@ body
     background: purple;
     padding-bottom: 30%;
     float: left;
-    margin: 1.66%
+    margin: 1.66%;
+    transition: background-color 0.7s; 
+    -webkit-transition: background-color 0.7s;
+    -moz-transition: background-color 0.6s;
 
+    border-radius: 15%;
+}
+
+button:hover{
+
+    color: white;
+    background-color: steelblue;
+}
+
+
+
+button
+{
+    background: none;
+    text-transform: uppercase;
+    border: none;
+    font-size: inherit;
+    padding: 20px 20px;
+    transition: all 0.3s;
+    font-size: 1.5rem;
+    
 }
 
 #container
@@ -25,11 +49,18 @@ body
     max-width: 600px;
 }
 
+#message
+{
+    display: inline-block;
+    width: 20%;
+    font-size: 1.5rem;
+}
+
 #stripe
 {
     background-color: white;
     text-align: center;
-    height: 30px;
+    border-radius: 2.5%;
 }
 
 #playButton
